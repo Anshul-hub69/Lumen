@@ -1,2 +1,2 @@
 # Lumen
-personalized recommendation and ranking engine
+A two-stage personalized recommendation engine with cold-start support and diversity-aware ranking.
