@@ -130,3 +130,7 @@ How to read this honestly:
 * Evaluation uses a single static snapshot at the start of the test window, not a request-by-request replay.
 * Offline metrics do not capture position bias or feedback loops. Validate with an online A/B test.
 * Implicit positives only. Negative signals (skips, dislikes) are not modeled.
+
+
+By
+Anshul Sharma
