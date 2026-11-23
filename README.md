@@ -75,7 +75,7 @@ python -m lumen.cli evaluate
 almost no returning users to test on (a run without the flag had only 12). `--user-split` holds out each user's own
 most recent ratings instead, and treats 10% of users as brand-new. Timestamps become pseudo-time: order within
 a user is real, but "item age" is only relative. Ratings of 4 or more become positives.
-For catalogs beyond about 20k items, replace the dense content matrix `ItemSpace.X` with a sparse one or an ANN
+For catalogs beyond about 20k items, replace the dense content matrix `ItemSpace.X` with a sparse one or an ANN,
 index (FAISS or ScaNN) for the MF and content retrievers.
 
 ### Step 7. Extend it
